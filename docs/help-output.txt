@@ -1,0 +1,15 @@
+load-resilience-tester -- test YOUR OWN server's rate-limit / resilience
+
+Usage:
+  java com.resilience.Main --target <url> --authorize [--rps N] [--duration S]
+
+  --target    URL to test. Loopback (localhost / 127.0.0.1 / ::1) only,
+              or a host listed in allowlist.txt (one host per line).
+  --authorize Required. Confirms you own the target or have written
+              permission to test it. You will also be asked to type YES.
+  --rps       Requests per second, 1-10 (default 5).
+  --duration  Seconds, 1-60 (default 10). Total requests capped at 600.
+
+Demo (in another terminal, start the test server first):
+  python3 demo/server.py
+  java com.resilience.Main --target http://127.0.0.1:8765/ --authorize

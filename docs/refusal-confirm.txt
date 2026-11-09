@@ -1,0 +1,3 @@
+Target: http://127.0.0.1:8765/
+Planned: 50 requests at 5 req/s for 10s
+You confirm you own this target or have written permission to test it. Type YES to continue: Aborted: confirmation not given.

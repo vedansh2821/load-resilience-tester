@@ -1,0 +1,15 @@
+Target: http://127.0.0.1:8765/
+Planned: 20 requests at 5 req/s for 4s
+You confirm you own this target or have written permission to test it. Type YES to continue: 
+Load Resilience Test -- results
+================================
+Total requests:   20
+2xx responses:    0
+Other statuses:   0
+Errors:           20
+Elapsed:          3.8s (achieved 5.20 req/s)
+Latency avg/min/max: 0.0 / 0 / 0 ms
+Status codes:
+Note: non-2xx / errors under a tiny capped load usually mean
+the target rate-limited, rejected, or was unavailable -- that is
+exactly what this tool is for: finding out before real traffic does.

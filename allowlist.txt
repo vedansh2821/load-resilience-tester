@@ -1,0 +1,6 @@
+# Allowlist for load-resilience-tester.
+# One host per line. Only hosts listed here (plus loopback: localhost,
+# 127.0.0.1, ::1) may be tested. Add a host ONLY if you own that server
+# or have written permission to test it. Lines starting with # are comments.
+# Example (do NOT uncomment unless it is your own server):
+# my-own-test-server.example.com

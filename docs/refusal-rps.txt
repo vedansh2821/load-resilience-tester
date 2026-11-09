@@ -1,0 +1,2 @@
+Error: Request rate must be between 1 and 10 req/s.
+Run with --help for usage.

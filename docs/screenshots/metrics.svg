@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="813" height="335" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
+<rect width="100%" height="100%" rx="8" fill="#0d1117"/>
+<circle cx="20" cy="18" r="5" fill="#ff5f57"/><circle cx="38" cy="18" r="5" fill="#febc2e"/><circle cx="56" cy="18" r="5" fill="#28c840"/>
+<text x="76" y="22" fill="#8b949e" font-size="12">terminal — metrics</text>
+<text x="16" y="53" fill="#c9d1d9">Target: http://127.0.0.1:8765/</text>
+<text x="16" y="72" fill="#c9d1d9">Planned: 20 requests at 5 req/s for 4s</text>
+<text x="16" y="91" fill="#c9d1d9">You confirm you own this target or have written permission to test it. Type YES to continue: </text>
+<text x="16" y="110" fill="#c9d1d9">Load Resilience Test -- results</text>
+<text x="16" y="129" fill="#c9d1d9">================================</text>
+<text x="16" y="148" fill="#c9d1d9">Total requests:   20</text>
+<text x="16" y="167" fill="#c9d1d9">2xx responses:    0</text>
+<text x="16" y="186" fill="#c9d1d9">Other statuses:   0</text>
+<text x="16" y="205" fill="#f85149">Errors:           20</text>
+<text x="16" y="224" fill="#c9d1d9">Elapsed:          3.8s (achieved 5.20 req/s)</text>
+<text x="16" y="243" fill="#c9d1d9">Latency avg/min/max: 0.0 / 0 / 0 ms</text>
+<text x="16" y="262" fill="#c9d1d9">Status codes:</text>
+<text x="16" y="281" fill="#c9d1d9">Note: non-2xx / errors under a tiny capped load usually mean</text>
+<text x="16" y="300" fill="#c9d1d9">the target rate-limited, rejected, or was unavailable -- that is</text>
+<text x="16" y="319" fill="#c9d1d9">exactly what this tool is for: finding out before real traffic does.</text>
+</svg>
